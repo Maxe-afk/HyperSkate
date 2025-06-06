@@ -3,3 +3,14 @@
   padding: 0;
   overflow-x: hidden;
 }
+
+.body{
+  body {
+    background-image: url("https://image-5.uhdpaper.com/wallpaper/city-synthwave-grid-moon-digital-art-4k-wallpaper-uhdpaper.com-430@5@c.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+}
