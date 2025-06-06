@@ -11,30 +11,22 @@
   background-color: transparent;
   width: 100%;  
   background-color: #141414;
+  position: fixed;
 }
 
 .nav h2{
   color: white;
   font-size: 1.5rem;
-  text-shadow:
-    0 0 1px #fff,
-    0 0 4px #fff,
-    0 0 14px #fff,
-    0 0 33px #0fa,
-    0 0 100px #0fa,
-    0 0 100px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 6rem;
   background-color: transparent;
   width: 100dvw;
-  background-color: #141414;
+  /* background-color: #141414; */
 }
 
 .logo {
@@ -48,14 +40,27 @@
 }
 
 .intro {
+  margin-top: 8rem;
+  padding: .7rem;
   color: white;
   font-family: "Righteous", sans-serif;
   text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px #ffffff;
+  background-color: #1414145d;
+}
+
+.intro2{
+  padding: .7rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px #ffffff;
+  background-color: #1414145d;
 }
 
 .productPhoto{
   height: 25rem;
   width: 25rem;
+  filter: drop-shadow(5px 5px 2px #63d3ffda);
 }
 
 .presentation{
@@ -66,4 +71,11 @@
   align-items: center;
   color: white;
   font-family: "Righteous", sans-serif;
+  padding: .7rem;
+}
+
+.background{
+  position: fixed;
+  zoom: 50%;
+  z-index: -1;
 }
